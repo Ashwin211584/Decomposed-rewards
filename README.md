@@ -1,3 +1,14 @@
+This research project explores using ProtoPNet, a modified Convolutional Neural Network (CNN)
+designed for classification, in the realm of Reinforcement Learning (RL) to enhance interpretability.
+In safety-critical applications like autonomous driving, understanding the decision-making of
+Neural Network controllers is vital. Ensuring the interpretability of the decision-making processes
+of complex Neural Network controllers is crucial for effective collaboration, safety assurance, and
+legal scrutiny. We integrate ProtoPNet with Decomposed Rewards, a framework breaking
+down reward functions into reward components, enabling a better understanding of an RL agent’s
+decisions. The modified ProtoPNet learns prototypical patterns for maximizing different reward
+components, making them interpretable. The agent’s policy will be trained to maximize the total
+reward in the environment, akin to standard RL tasks. The project is evaluated in the Car Racing
+Box2D environment to assess the effectiveness and interpretability of this novel RL algorithm.
 # MLproject - Prototypical Parts Network for Reinforcement Learning
 
 ## Instalation
